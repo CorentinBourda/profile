@@ -1,0 +1,56 @@
+body{
+  font-family: "Roboto";
+  color: blue;
+  background-color: #f7f9fc;
+}
+
+.yellow_bottom{
+  text-decoration: none;
+  color: blue;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fdb118
+}
+p{
+  color: grey;
+}
+.test, .present{
+  margin: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 0px 5px 1px #fdb118;
+  text-align: center;
+}
+
+h2{
+  color: green;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
