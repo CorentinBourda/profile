@@ -1,32 +1,32 @@
 body{
   font-family: "Roboto";
-  color: blue;
-  background-color: #f7f9fc;
+  color: #394989;
+  background-color: #fff48f;
 }
 
 .yellow_bottom{
   text-decoration: none;
-  color: blue;
+  color: #3b2e5a;
   margin: 15px;
   padding: 15px;
   border-radius: 5px;
-  background-color: #fdb118
+  background-color: #fff48f
 }
 p {
-  color: grey;
+  color: #3b2e5a;
 }
 .test, .present{
   margin: 30px;
   padding: 30px;
   border-radius: 15px;
-  background-color: #ffffff;
+  background-color: #3b2e5a;
   text-align: left;
-  box-shadow: 0px 5px 1px #fdb118;
+  box-shadow: 0px 5px 1px #fff48f;
   text-align: center;
 }
 
 h2{
-  color: green;
+  color: #394989;
 }
 .list-inline {
   list-style: none;
